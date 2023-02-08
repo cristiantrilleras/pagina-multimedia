@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: rgb(36, 40, 43);
+    font-size: 20px;
+    color: white;
+    border-bottom:5px solid #0ea3ee;
+    
+}
+
+#titulo-izq{
+    text-align: left;
+    margin-left: 100px;
+    padding-top: 40px;
+}
+/* #titulo-der h3{
+    margin-left: 20px;
+    
+    
+} */
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+    
+  }
+
+nav ul{
+    text-align: right;
+    margin-bottom: 30px;
+  }
+
+nav ul li a:hover{
+    color: #0ea3ee;
+  }
+
+#inicio {
+    color: #0ea3ee;
+}
+
+#nosotros{
+    color: #0ea3ee;
+}
+
+#servicios{
+    color: #0ea3ee;
+}
+
+#contacto{
+    color: #0ea3ee;
+}
+
+
+/* #titulo-der{
+    text-align: right; 
+    margin-right: 100px;
+
+
+} */
+
+span{
+    color: rgb(26, 138, 212);
+}
+
+.cabecera{
+    width: 1900px;
+    height:500px; 
+    background: url(/images/cabecera.jpg) 0px;
+}
+
+
+#expertos{
+    text-align: center;
+    position: absolute;
+    top: 27%;
+    left: 20%;
+    color: #ffffff;
+    font-size: 90PX;
+    
+    
+}
+
+#lorem{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30PX;
+
+}
+
+.banner{
+    background-color: rgb(36, 40, 43);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    
+}
+
+.suscripcion{
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+.formulario{
+    float: right;
+    margin: -35px;
+    margin-right: 350px;
+
+}
+
+input{
+    width: 300px;
+    height: 30px;
+}
+
+button{
+    background-color: rgb(248, 124, 8);
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    height: 35px;
+
+}
+
+.logos{
+    padding-top: 10px;
+    padding-left: 70px;
+
+}
+.html{
+    width: 30%;
+    height: 100px;
+    float: left;
+   margin: 80px 0px;
+   text-align: center;
+   font-size: 15px;
+    
+}
+
+.css{
+    width: 30%;
+    float: left;
+    margin: 77px 0px 0px 50px;
+    text-align: center;
+    font-size: 15px;
+}
+    
+
+.brush{
+    width: 30%;
+    height: 100px;
+    float: right;
+    font-size: 15px;
+    margin-top: 77px;
+    margin-right: 5%;
+    text-align: center;
+    }
+
+.footer footer{
+    color: #ffffff;
+    /* margin: 478px 0px 0px 0px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(17, 114, 206);
+    text-align: center
+}
+
+.footer-inicio footer{
+    color: #ffffff;
+    margin: 478px 0px 0px 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(17, 114, 206);
+    text-align: center
+}
+
+.footer-contacto footer{
+    color: #ffffff;
+    margin: 578px 0px 0px 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(17, 114, 206);
+    text-align: center
+}
+
+/* 
+pagina nosotros */
+    
+.nosotros{
+    margin-left: 100px;
+    margin-right: 700px;
+    text-align: justify;
+}
+
+.texto2{
+    margin-left: 100px;
+    margin-right: 700px;
+    text-align: justify;
+    background-color: rgb(78, 78, 78);
+    color: #ffffff;
+    padding: 15px;
+}
+
+.imagen-pc img{
+    margin-left: 100px;
+    width:829pt;
+    height: 300px;
+}
+
+.quehacemos{
+    text-align: justify;
+    background-color: rgb(78, 78, 78);
+    color: #ffffff;
+    padding: 50px; 
+    margin-right: 156px;
+    width: 300px;
+    float: right;
+
+}
+
+
+.servicios{
+    margin-left: 200px;
+}
+
+.diseño{
+    margin-left: 200px;
+    border: 2px solid #CCCCCC;
+    background-color: #E6E6E6;
+    text-align: justify;
+    width: 750px;
+    padding: 50px;
+    margin-bottom: 5PX;
+}
+
+.quehacemos2{
+    margin-left: 200px;
+}
+
+/* #inicio a {
+    color: #0ea3ee;
+} */
+
+.quehacemos2 input{
+    width: 700px;
+}
+
+.quehacemos2 textarea{
+    width: 700px;
+}
+
+.quehacemos2 button{
+    width: 700px;
+}
+
+.izquierda{
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 100PX;
+}
+
+.derecha{
+    float: right;
+    right: 100PX;
+    position: relative;
+}
+
+.mapa img{
+    height: 300px;
+    width: 400px;
+    margin-top: 10px;
+    /* top: 284px;
+    left: 401px;
+    position: relative; */
+}
